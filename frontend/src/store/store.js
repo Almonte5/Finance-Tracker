@@ -8,5 +8,6 @@ export const store = configureStore({
     auth: authReducer,
     categories: categoryReducer,
     transactions: transactionReducer,
+    dashboard: dashboardReducer,
   },
 });

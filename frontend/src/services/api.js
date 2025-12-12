@@ -44,4 +44,10 @@ export const transactionAPI = {
   delete: (id) => api.delete(`/transactions/${id}`),
 };
 
+// Dashboard endpoints
+export const dashboardAPI = {
+  getSummary: (params) => api.get('/dashboard/summary', { params }),
+  getSpendingTrend: (params) => api.get('/dashboard/spending-trend', { params }),
+};
+
 export default api;
