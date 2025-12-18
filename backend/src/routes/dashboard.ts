@@ -9,4 +9,4 @@ router.use(authenticateToken);
 router.get('/summary', getDashboardSummary);
 router.get('/spending-trend', getSpendingTrend);
 
-export default router
+export default router;
