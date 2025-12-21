@@ -1,2 +1,2 @@
 # Personal-Finance-Tracker
-backend testing using bash
+Completed finace tracker with dashboard and charts
