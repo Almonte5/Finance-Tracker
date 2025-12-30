@@ -23,17 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables
-.env
-*.env
-
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
-
-# OS files
-.DS_Store
-Thumbs.db
